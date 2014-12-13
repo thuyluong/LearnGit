@@ -14,6 +14,7 @@
 		9720063C1A3C40BB00E00C47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9720063B1A3C40BB00E00C47 /* Images.xcassets */; };
 		9720063F1A3C40BB00E00C47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9720063D1A3C40BB00E00C47 /* LaunchScreen.xib */; };
 		9720064B1A3C40BB00E00C47 /* LearnGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9720064A1A3C40BB00E00C47 /* LearnGitTests.m */; };
+		97F3F5A91A3C5175009B3CBB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F3F5A81A3C5175009B3CBB /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		972006441A3C40BB00E00C47 /* LearnGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		972006491A3C40BB00E00C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9720064A1A3C40BB00E00C47 /* LearnGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitTests.m; sourceTree = "<group>"; };
+		97F3F5A71A3C5175009B3CBB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		97F3F5A81A3C5175009B3CBB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				9720063B1A3C40BB00E00C47 /* Images.xcassets */,
 				9720063D1A3C40BB00E00C47 /* LaunchScreen.xib */,
 				9720062E1A3C40BB00E00C47 /* Supporting Files */,
+				97F3F5A71A3C5175009B3CBB /* RegisterViewController.h */,
+				97F3F5A81A3C5175009B3CBB /* RegisterViewController.m */,
 			);
 			path = LearnGit;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				972006371A3C40BB00E00C47 /* ViewController.m in Sources */,
 				972006341A3C40BB00E00C47 /* AppDelegate.m in Sources */,
 				972006311A3C40BB00E00C47 /* main.m in Sources */,
+				97F3F5A91A3C5175009B3CBB /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				972006501A3C40BB00E00C47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		972006511A3C40BB00E00C47 /* Build configuration list for PBXNativeTarget "LearnGitTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				972006531A3C40BB00E00C47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
